@@ -1,0 +1,32 @@
+{
+  "name": "jesttutorials",
+  "version": "1.0.0",
+  "description": "Experimenting with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Mihir Shah <superm15@protonmail.com> (b282022.github.io/Resume)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^22.4.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest-cli": "^22.4.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom":
+    [
+        "src/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "statements": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    }
+  }
+}
