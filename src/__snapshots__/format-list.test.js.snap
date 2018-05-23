@@ -1,9 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Can format a list 1`] = `
-"These are the items in the Star wars name:
+"These are the items in the Some fictitious characters(change is intentional and inevitable):
  - Qui-Gon Jinn
  - Chewbacca
  - Han Solo
- - Luke Skywalker"
+ - Luke Skywalker
+ - Jaime Lannister"
 `;
