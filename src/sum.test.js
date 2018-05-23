@@ -4,7 +4,7 @@ required in our test, it's not getting instrumented for coverage and is
 therefore excluded in our coverage report. */
 
 import sum from './sum'
-import subtract from './subtract'
+// import subtract from './subtract'
 test('Adding 1 and 2', () => {
   expect(sum(1, 2)).toBe(3);
 })
